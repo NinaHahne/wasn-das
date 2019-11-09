@@ -347,7 +347,7 @@
   {
     "id": 70,
     "title": ";o) - Emoticons - ;o)",
-    "items": ["<span>=):-)= &rarr;</span> Abraham Lincoln", "<span>:*)&emsp;&rarr;</span> Betrunkener", "<span>{:-)&ensp;&nbsp;&rarr;</span> Toupetträger", "<span>@:-)&ensp;&nbsp;&rarr;</span> Inder", "<span>[:]&emsp;&rarr;</span>  Roboter", "<span>+-:-)&ensp;&rarr;</span> Papst"]
+    "items": ["<span>=):-)= &rarr;</span> Abraham Lincoln", "<span>:*)&nbsp;&nbsp;&nbsp;&nbsp;&rarr;</span> Betrunkener", "<span>{:-)&nbsp;&nbsp;&nbsp;&rarr;</span> Toupetträger", "<span>@:-)&nbsp;&nbsp;&nbsp;&rarr;</span> Inder", "<span>[:]&nbsp;&nbsp;&nbsp;&nbsp;&rarr;</span>  Roboter", "<span>+-:-)&nbsp;&nbsp;&rarr;</span> Papst"]
   },
   {
     "id": 71,
