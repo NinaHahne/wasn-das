@@ -1,4 +1,4 @@
-# WasnDas
+# Was'n das?
 
 german playing cards for a word game
 
