@@ -27,7 +27,7 @@ header {
   min-width: 520px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 4rem;
+  padding-top: 3rem;
   padding-right: 2rem;
   padding-left: 2rem;
   font-family: 'Life Savers', cursive;
@@ -38,10 +38,10 @@ header {
 
 header h1 {
   text-shadow: 6px 6px 10px rgb(146, 146, 146);
-  font-size: 5.4rem;
+  font-size: 5.2rem;
   font-weight: 800;
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 /* section styles */
@@ -57,7 +57,7 @@ section {
 }
 
 section article {
-  margin-top: 3rem;
+  margin-top: 2rem;
   border-radius: 8px;
   border: 2px solid black;
   padding: 0.8rem;
