@@ -2,7 +2,7 @@
 let section = document.querySelector('section');
 let buttonBox = document.getElementsByClassName('buttonBox');
 
-let requestURL = 'https://ninahahne.github.io/wasn-das/cards_enUS.json';
+let requestURL = 'https://ninahahne.github.io/wasn-das/cards_de.json';
 let request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
