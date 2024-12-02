@@ -3,6 +3,9 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   min-height: 100vh; /* 100% of viewport-height*/
   margin: 0;
   font-size: 2rem;
@@ -23,10 +26,10 @@ body {
 /* header styles */
 
 header {
-  width: 30%;
-  min-width: 520px;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-top: 3rem;
   padding-right: 2rem;
   padding-left: 2rem;
@@ -34,6 +37,13 @@ header {
   /*font-family: 'Cabin Sketch', cursive;*/
   /*font-family: 'Atma', cursive;*/
   text-align: center;
+}
+
+header > a {
+  position: absolute;
+  top: 1em;
+  color: black;
+  font-size: 18px;
 }
 
 header h1 {
@@ -47,13 +57,15 @@ header h1 {
 /* section styles */
 
 section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 30%;
-  min-width: 580px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 2rem;
   padding-right: 2rem;
-
+  min-width: 580px;
 }
 
 section article {
@@ -125,4 +137,23 @@ button:active {
 
 button:focus {
   outline: none;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 1.5rem;
+  }
+  main {
+    width: 100%;
+  }
+  header h1 {
+    font-size: 3.5rem;
+  }
+  section {
+    width: 100%;
+    min-width: unset;
+  }
+  article {
+    width: 100%;
+  }
 }
