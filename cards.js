@@ -2,7 +2,11 @@
 let section = document.querySelector('section');
 let buttonBox = document.getElementsByClassName('buttonBox');
 
-let requestURL = 'https://ninahahne.github.io/wasn-das/cards_de.json';
+// let requestURL = 'https://ninahahne.github.io/wasn-das/cards_de.json';
+// Get JSON URL dynamically (e.g., from `data-source` attribute or query parameter)
+let sourceElement = document.getElementById('cardSource');
+let requestURL = sourceElement ? sourceElement.getAttribute('data-source') : 'https://ninahahne.github.io/wasn-das/cards_de.json';
+
 let request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
